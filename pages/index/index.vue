@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
 		<firstnav></firstnav>
+		<video-list></video-list>
 		<tab></tab>
 	</view>
 </template>
@@ -8,10 +9,12 @@
 <script>
 	import tab from "../../components/tab.vue"
 	import firstnav from "../../components/first-nav.vue"
+	import videoList from "../../components/videoList.vue"
 	export default {
 		components: {
 			tab,
-			firstnav
+			firstnav,
+			videoList
 		},
 		data() {
 			return {
@@ -29,10 +32,12 @@
 
 <style>
 	.content {
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: center; */
+		height:100%;
+		width:100%;
 	}
 
 	.logo {
