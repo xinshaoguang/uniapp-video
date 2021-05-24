@@ -1,11 +1,15 @@
 <template>
 	<view class="content">
-		我是首页
+		<tab></tab>
 	</view>
 </template>
 
 <script>
+	import tab from "../../components/tab.vue"
 	export default {
+		components: {
+			tab
+		},
 		data() {
 			return {
 				title: 'Hello'
