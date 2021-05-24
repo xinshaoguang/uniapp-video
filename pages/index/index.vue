@@ -1,14 +1,17 @@
 <template>
 	<view class="content">
+		<firstnav></firstnav>
 		<tab></tab>
 	</view>
 </template>
 
 <script>
 	import tab from "../../components/tab.vue"
+	import firstnav from "../../components/first-nav.vue"
 	export default {
 		components: {
-			tab
+			tab,
+			firstnav
 		},
 		data() {
 			return {
