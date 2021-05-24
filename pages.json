@@ -6,11 +6,27 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/follow/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",//将顶部显示文字设为白色
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",//自定义导航
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"list":[
+			{"pagePath":"pages/index/index"},
+			{"pagePath":"pages/follow/follow"}
+		]
 	}
 }

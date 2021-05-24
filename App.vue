@@ -2,6 +2,7 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			uni.hideTabBar()//隐藏导航栏
 		},
 		onShow: function() {
 			console.log('App Show')
